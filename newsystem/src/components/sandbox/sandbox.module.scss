@@ -1,0 +1,40 @@
+.trigger {
+    padding: 0 24px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.trigger:hover {
+    color: #1890ff;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 12px;
+    margin: 24px 14px;
+    background: rgba(255, 255, 255, 0.355);
+    border-radius: 6px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.flexTopBox {
+    padding: 0 20px 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fullscreen {
+    margin-left: 20px;
+    font-size: 26px;
+    cursor: pointer;
+
+    &:hover {
+        color: red;
+    }
+}

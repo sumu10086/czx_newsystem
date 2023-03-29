@@ -1,0 +1,43 @@
+.a {
+    font-weight: bolder;
+    color: orangered;
+    font-size: 16px;
+}
+
+.roleID {
+    font-weight: bolder;
+    color: rgb(11, 109, 238);
+    font-size: 18px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.margin-rl-10 {
+    margin: 0 10px;
+}
+
+.ant-table-row-level-1 {
+    .ant-table-cell-with-append {
+        a {
+            color: skyblue !important;
+        }
+    }
+}
+
+.ant-table-pagination {
+    justify-content: start !important;
+
+    .ant-pagination-total-text {
+        font-size: 16px;
+        font-weight: bolder;
+        color: rgb(150, 140, 140);
+    }
+
+
+    // .ant-select-selector {}
+}

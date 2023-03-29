@@ -1,0 +1,33 @@
+.top {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    box-shadow: 0 0 10px 2px rgba($color: #000000, $alpha: 0.5);
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: peru;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content {
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+}
+
+
+.view {
+    color: rgb(27, 170, 214);
+}
+
+.star {
+    color: #ff06a3;
+}
